@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+header {
+  color: white;
+}
+
+body {
+  background-image: url(http://minecraft.fr/wp-content/uploads/2015/10/2015-10-04_22.06.02.png);
+  background-size: 200%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  color: black;
+}
+
+.intro2 {
+  padding-top: 25px;
+}
+
+.intro3 {}
+
+h1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.imagee {
+  background-color: #2d3436;
+  display: flex;
+  border-radius: 0%;
+  border-bottom: 2px solid #e17055;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+.imagee ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.imagee li {
+  list-style-type: none;
+}
+
+.bouton1 a {
+  display: block;
+  width: 100px;
+  line-height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  background: url(Diamond.png) no-repeat;
+  background-size: contain;
+  border-radius: 0%;
+  color: White;
+  text-decoration: none;
+  text-shadow: Black 1px 0 10px;
+}
+
+.bouton1 a:hover {
+  background: url(Diamond2.png) no-repeat;
+  background-size: contain;
+  border-radius: 0%;
+}
+
+.bouton2 a {
+  display: block;
+  width: 100px;
+  line-height: 50px;
+  text-align: middle;
+  vertical-align: middle;
+  background: url(Diamond.png) no-repeat;
+  background-size: contain;
+  border-radius: 0%;
+  color: White;
+  text-decoration: none;
+  text-shadow: Black 1px 0 10px;
+}
+
+.bouton2 a:hover {
+  background: url(Diamond2.png) no-repeat;
+  background-size: contain;
+  border-radius: 0%;
+}
+
+.body {
+  background-color: #b71540;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  border-top: 2px solid #e17055;
+  border-bottom: 2px solid #e17055;
+  padding-left: 100px;
+}
+.body a{
+}
+.bodyy {
+  background-image: url(https://i.imgur.com/kXdO6WH.jpg);
+  background-size: 200%;
+  background-repeat: repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: right;
+  padding-right: 100px;
+  background-attachment: fixed;
+}
+
+.lol {
+  background-color: #b71540;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  text-align: center;
+  border-top: 2px solid #e17055;
+  border-bottom: 2px solid #e17055;
+}
+
+.lol3 {
+  background-image: url(https://i.imgur.com/VvX3DO4.jpg);
+  background-size: 200%;
+  background-repeat: repeat;
+  padding-top: 125px;
+  padding-bottom: 100px;
+  background-attachment: fixed;
+  text-align: left;
+}
+
+footer {
+  background-color: #2d3436;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  border-top: 2px solid #e17055;
+  color: #9095A6;
+}
+#liensecret{
+visibility: hidden;
+}
+.footer{
+display: flex;
+background-color: #e17055;
+padding-left: 25px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.banner2 {
+  text-align: left;
+}
+.banner2 a{
+  color : #8653B8;
+}
+.banner3 a{
+  color : #8653B8;
+}
+
+.banner3 {
+  text-align: left;
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.lol4 {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.contener_slideshow {
+  width: 610px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  background-image: url();
+}
+
+.slid_1, .slid_2, .slid_3, .slid_4, .slid_5 {
+  position: absolute;
+  width: 610px;
+  height: 400px;
+}
+
+.slid_1 {
+  left: 0;
+}
+
+.slid_2 {
+  left: 610px;
+}
+
+.slid_3 {
+  left: 1220px;
+}
+
+.slid_4 {
+  left: 1830px;
+}
+
+.slid_5 {
+  left: 2440px;
+}
+
+.contener_slide {
+  width: 610px;
+  height: 400px;
+  left: 0px;
+  position: absolute;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 10s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 10s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-name: anim_slide;
+}
+
+@-webkit-keyframes anim_slide {
+  0% {
+    left: 0px;
+  }
+  10% {
+    left: 0px;
+  }
+  20% {
+    left: -610px;
+  }
+  30% {
+    left: -610px;
+  }
+  40% {
+    left: -1220px;
+  }
+  50% {
+    left: -1220px;
+  }
+  60% {
+    left: -1830px;
+  }
+  70% {
+    left: -1830px;
+  }
+  80% {
+    left: -2440px;
+  }
+  90% {
+    left: -2440px;
+  }
+}
+
+@-moz-keyframes anim_slide {
+  0% {
+    left: 0px;
+  }
+  10% {
+    left: 0px;
+  }
+  20% {
+    left: -610px;
+  }
+  30% {
+    left: -610px;
+  }
+  40% {
+    left: -1220px;
+  }
+  50% {
+    left: -1220px;
+  }
+  60% {
+    left: -1830px;
+  }
+  70% {
+    left: -1830px;
+  }
+  80% {
+    left: -2440px;
+  }
+  90% {
+    left: -2440px;
+  }
+}
+
+@-ms-keyframes anim_slide {
+  0% {
+    left: 0px;
+  }
+  10% {
+    left: 0px;
+  }
+  20% {
+    left: -610px;
+  }
+  30% {
+    left: -610px;
+  }
+  40% {
+    left: -1220px;
+  }
+  50% {
+    left: -1220px;
+  }
+  60% {
+    left: -1830px;
+  }
+  70% {
+    left: -1830px;
+  }
+  80% {
+    left: -2440px;
+  }
+  90% {
+    left: -2440px;
+  }
+}
+
+@keyframes anim_slide {
+  0% {
+    left: 0px;
+  }
+  10% {
+    left: 0px;
+  }
+  20% {
+    left: -610px;
+  }
+  30% {
+    left: -610px;
+  }
+  40% {
+    left: -1220px;
+  }
+  50% {
+    left: -1220px;
+  }
+  60% {
+    left: -1830px;
+  }
+  70% {
+    left: -1830px;
+  }
+  80% {
+    left: -2440px;
+  }
+  90% {
+    left: -2440px;
+  }
+}
